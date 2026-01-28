@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Reviews | Cary Handyman</title>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container header-flex">
+    <a href="index.html" class="logo">Cary Handyman</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+    </nav>
+  </div>
+</header>
+
+<section class="dark">
+  <div class="container">
+    <h1>⭐⭐⭐⭐⭐ Customer Reviews</h1>
+
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=11">
+      <div class="stars">★★★★★</div>
+      <p>Very professional and reliable. Fixed drywall perfectly.</p>
+      <strong>Michael R., Cary</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=32">
+      <div class="stars">★★★★★</div>
+      <p>Great handyman! Fair price and fast service.</p>
+      <strong>Sarah L., Cary</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=45">
+      <div class="stars">★★★★★</div>
+      <p>Highly recommend. Installed lighting and fixed a leak.</p>
+      <strong>Emily R., Morrisville</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=18">
+      <div class="stars">★★★★★</div>
+      <p>Excellent work assembling furniture. Everything perfect.</p>
+      <strong>David M., Apex</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=27">
+      <div class="stars">★★★★★</div>
+      <p>Fast, friendly, and very skilled. Will hire again.</p>
+      <strong>Linda P., Cary</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=55">
+      <div class="stars">★★★★★</div>
+      <p>Fixed my garbage disposal in 20 minutes. Amazing.</p>
+      <strong>Jason T., Morrisville</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=60">
+      <div class="stars">★★★★★</div>
+      <p>Mounted shelves and TV. Clean and precise work.</p>
+      <strong>Robert S., Cary</strong>
+    </div>
+  </div>
+
+  <div class="swiper-slide">
+    <div class="review-card">
+      <img class="review-photo" src="https://i.pravatar.cc/150?img=5">
+      <div class="stars">★★★★★</div>
+      <p>Great communication and excellent craftsmanship.</p>
+      <strong>Anna W., Apex</strong>
+    </div>
+  </div>
+
+</div>
+
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <h2 style="margin-top:40px">Leave a Review</h2>
+<div class="rating-stars">
+  <span data-index="0">⭐</span>
+  <span data-index="1">⭐</span>
+  <span data-index="2">⭐</span>
+  <span data-index="3">⭐</span>
+  <span data-index="4">⭐</span>
+</div>
+
+<input type="hidden" name="rating" id="rating-value" value="5">
+
+
+
+    <form class="ajax-form review-form" action="https://formspree.io/f/mgokdzby" method="POST">
+      <input type="hidden" name="type" value="Review">
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your review" required></textarea>
+      <button class="btn">Send Review</button>
+    </form>
+  </div>
+</section>
+
+<footer>© 2026 Cary Handyman</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
